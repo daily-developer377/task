@@ -1,26 +1,30 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Responsive navbar using only html css</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Responsive navbar using only html css</title>
+    <link rel="stylesheet" href="/css/bootstrap.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" type="text/css" href="nav.css">
+    <link rel="stylesheet" href="body.css">
 
-	<!-- <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet"> -->
-	<link rel="stylesheet"href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 
-  <!-- <link rel="preconnect" href="https://fonts.googleapis.com"> -->
-  <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap" rel="stylesheet">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com"> -->
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap" rel="stylesheet">
 
 </head>
+
 <body>
 
-	<header>
-		<a href="#" class="logo"><img src="images/logo.svg" alt=""></a>
+    <header>
+        <a href="#" class="logo"><img src="images/logo.svg" alt=""></a>
 
-		<ul class="navbar" id="middlesec">
+        <ul class="navbar" id="middlesec">
             <!-- try old -->
             <div style="margin-left: -50px" class="hero">
                 <div class="selector">
@@ -50,7 +54,7 @@
             </div>
             <!-- end old -->
             <!-- start company old -->
-            
+
             <div>
                 <!-- drop down company -->
                 <!-- start -->
@@ -78,59 +82,53 @@
 
 
             <!-- end old company -->
-			<!-- <li><a href="#">Features</a></li> -->
-			<!-- <li><a href="#">company</a></li> -->
-			<li class="liii"><a href="#">Carrers</a></li>
-			<li class="liiiab"><a href="#">About</a></li>
-			<!-- <li><a href="#">Contact</a></li> -->
-		</ul>
-        <ul class="navbar">
-		    <div class="main">
-			<a href="#" class="user">Login</a>
-            <button class="reg">Register</button>
-            
+            <!-- <li><a href="#">Features</a></li> -->
+            <!-- <li><a href="#">company</a></li> -->
+            <li class="liii"><a href="#">Carrers</a></li>
+            <li class="liiiab"><a href="#">About</a></li>
+            <!-- <li><a href="#">Contact</a></li> -->
         </ul>
-			<!-- <a href="#">Register</a> -->
-			<div class="bx bx-menu" id="menu-icon"></div>
+        <ul class="navbar">
+            <div class="main">
+                <a href="#" class="user">Login</a>
+                <button class="reg">Register</button>
+
+        </ul>
+        <!-- <a href="#">Register</a> -->
+        <div class="bx bx-menu" id="menu-icon"></div>
         </div>
-	</header>
+    </header>
 
     <!-- contents -->
 
-    <section>
-        <div class="left_container">
-            <div class="textt">
-                <h1>Make<br>remote work</h1>
-                <!-- <h1>remote work</h1> -->
-                <p>
-                    Get your team in sync,no matter your location.<br>
-                    Streamline processes,create team rituals,and<br>
-                    watch productivity soar.
-                </p>
-                <button>Learn more</button><br>
-                <img src="images/client-databiz.svg" alt="">
-                <img style="margin-left: 30px;" src="images/client-audiophile.svg" alt="">
-                <img style="margin-left: 30px;" src="images/client-meet.svg" alt="">
-                <img style="margin-left: 30px;" src="images/client-maker.svg" alt="">
-            </div>
-            <!-- <div class="text">
-                <p>
-                    Get your team in sync,no matter your location.<br>
-                    Streamline processes,create team rituals,and<br>
-                    watch productivity soar.
-                </p>
-            </div> -->
-            <!-- <div class="button">
-                <button>Learn more</button>
-            </div> -->
-            <div>
-                <img style="margin-top: -1px;" class="image" src="images/image-hero-desktop.png" alt="">
-            </div>
+    <div class="container">
+        <div class="heading">
+            <h1>Make<br>remote work</h1>
+            <p>
+                Get your team in sync,no matter your location.<br>
+                Streamline processes,create team rituals,and<br>
+                watch productivity soar.
+            </p>
+            <button>
+                Learn more
+            </button><br>
+            <img src="images/client-databiz.svg" alt="">
+            <img style="margin-left: 30px;" src="images/client-audiophile.svg" alt="">
+            <img style="margin-left: 30px;" src="images/client-meet.svg" alt="">
+            <img style="margin-left: 30px;" src="images/client-maker.svg" alt="">
         </div>
-    </section>
 
-	<!--js link--->
-	<script type="text/javascript" src="script2.js"></script>
+        <img src="images/image-hero-desktop.png" class="img-fluid" alt="Responsive image">
+    </div>
+
+    <!--js link--->
+    <script type="text/javascript" src="script2.js"></script>
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="/js/bootstrap.js"></script>
 
 </body>
+
 </html>

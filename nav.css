@@ -13,7 +13,7 @@
 	/* --main-color: #29fd53; */
 }
 body{
-	min-height: 100vh;
+	/* min-height: 100vh; */
 	background: var(--bg-color);
 	/* color: var(--text-color); */
 }
@@ -143,7 +143,7 @@ header{
 		right: -100%;
 		width: 270px;
 		height: 29vh;
-		background: #FFFFFF;
+		background-color: #FFFFFF;
 		display: flex;
 		flex-direction: column;
 		justify-content: flex-start;
