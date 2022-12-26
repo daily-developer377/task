@@ -86,4 +86,8 @@
     .fourthimg{
         width: 75px;
     }
+    .logo{
+        margin-top: 5px;
+        margin-left: -1px;
+    }
 }
