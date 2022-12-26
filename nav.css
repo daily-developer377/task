@@ -38,16 +38,6 @@ header{
 	align-items: center;
     /* margin-left: 50px; */
 }
-/* .logo i{
-	color: var(--main-color);
-	font-size: 28px;
-	margin-right: 3px;
-} */
-/* .logo span{
-	color: var(--text-color);
-	font-size: 1.7rem;
-	font-weight: 600;
-} */
 .navbar{
 	display: flex;
     margin-top: -6px;
