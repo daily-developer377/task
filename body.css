@@ -73,4 +73,17 @@
     .heading button{
         margin-left: 146px;
     }
+    .firstimg{
+        margin-left: 8px;
+        width: 75px;
+    }
+    .secondimg{
+        width: 50px;
+    }
+    .thirdimg{
+        width: 75px;
+    }
+    .fourthimg{
+        width: 75px;
+    }
 }
